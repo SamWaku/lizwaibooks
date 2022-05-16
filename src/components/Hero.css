@@ -1,0 +1,9 @@
+.hero {
+    flex: 1;
+    height: calc(100vh - 50vh);
+    background: linear-gradient(180deg, #FCD458 29.06%, rgba(252, 212, 88, 0) 84.27%);
+}
+
+.hero-content {
+    margin-left: 50px;
+}

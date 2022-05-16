@@ -1,0 +1,9 @@
+.books {
+    height: 80vh;
+}
+
+.headtext {
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+}

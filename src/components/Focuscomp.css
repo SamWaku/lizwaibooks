@@ -1,0 +1,10 @@
+.focus {
+    align-items: center;
+    height: 50vh;
+}
+
+.headtext {
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+}
