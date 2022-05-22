@@ -42,25 +42,28 @@ function Navbar () {
                     <li className='nav-item'>
                       <Link to='/books' className='nav-links' >Books</Link>
                     </li>
-                    <li className='nav-item'>
-                        <Link to='/'><CgShoppingCart className='cart-btn'/></Link>
-                    </li>
-                    
-                  <li className='nav-btn'>
-                    {button ? (
-                    <Link to='/signup' className='btn-link'>
-                      <Button buttonStyle='btn--outline'>Sign up</Button>
-                    </Link>
-                    ) : (
-                      <Link to='/signup' className='btn-link'>
-                        <Button buttonStyle='btn--outline'
-                          buttonSize='btn--mobile'>
-                          Sign up
-                        </Button>
-                      </Link>
-                    )}
-                  </li>
+                  
                 </ul>
+                <ul className='cart-signup'>
+                  <li className='cart'>
+                          <Link to='/'><CgShoppingCart className='cart-btn'/></Link>
+                      </li>
+                      
+                    <li className='nav-btn'>
+                      {button ? (
+                      <Link to='/signup' className='btn-link'>
+                        <Button buttonStyle='btn--outline'>Sign up</Button>
+                      </Link>
+                      ) : (
+                        <Link to='/signup' className='btn-link'>
+                          <Button buttonStyle='btn--outline'
+                            buttonSize='btn--mobile'>
+                            Sign up
+                          </Button>
+                        </Link>
+                      )}
+                    </li>
+                  </ul>
             </div>
           </div>
       </>

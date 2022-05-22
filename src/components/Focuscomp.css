@@ -1,10 +1,35 @@
 .focus {
     align-items: center;
-    height: 50vh;
+    height: 80vh;
 }
 
 .headtext {
     font-weight: bold;
     color: #555;
+    text-align: center;
+}
+
+.focuscontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.textcont {
+    height: 469px;
+    width: 469px;
+    left: 223px;
+    top: 12vh;
+    border-radius: 50vh;
+    background: #938486;
+}
+
+.text {
+    margin-top: 30vh;
+    margin-left: 0px;
+    font-weight: bold;
+    color: white;
+    justify-content: center;
     text-align: center;
 }

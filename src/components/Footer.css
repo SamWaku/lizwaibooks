@@ -1,5 +1,62 @@
 .footer {
-    height: 50vh;
+    height: 35vh;
     background: #938486;
     
+}
+
+.textcontainer {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.footerul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.footertext {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.section1list {
+    list-style: none;
+}
+
+.section2list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.socialicon {
+    width: 10vh;
+    font-size: 50px;
+}
+
+.footersocialtext{
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.copyrightcont {
+    font-size: 8px;
+    padding-top: 10vh;
+    text-align: center;
+}
+
+.copyrighticon{
+    padding-top:4px;
+    padding-left: 5px;
+    color: rgb(0, 0, 0);
 }
