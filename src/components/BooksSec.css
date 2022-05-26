@@ -1,9 +1,42 @@
 .books {
-    height: 80vh;
+    height: 100vh;
 }
 
 .headtext {
     font-weight: bold;
     color: #555;
     text-align: center;
+}
+
+.booksectionlist{
+    position: relative;
+    margin: 20px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.booksectionlistitem{
+    list-style: none;
+    position: relative;
+    background-color: #EDEDED;
+    height: 80vh;
+    border-radius: 10px;
+    
+}
+
+.bookimg {
+    position: relative;
+    width:40vh;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.bookdesc {
+    position: relative;
+    padding: 20px;
+    top: 8vh;
+}
+
+.detail {
+    position: relative;
+    top: -5vh;
 }
