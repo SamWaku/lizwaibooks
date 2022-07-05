@@ -1,0 +1,17 @@
+.ReadMore-Container {
+    height: 30vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ReadMore-Text {
+    font-family: Manrope;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}

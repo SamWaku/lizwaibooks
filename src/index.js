@@ -4,12 +4,19 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+//pages import
+import Home from './components/pages/Home'
+import Signup from './components/pages/Signup';
+import Login from './components/pages/Login';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
     <BrowserRouter>
       <Routes>
-            <Route path='/' element={<App/>}/>
+            <Route path='/' element={<Home/>}/>
+            <Route path='/signup' element={<Signup/>}/>
+            <Route path='/login' element={<Login/>}/>
       </Routes>
     </BrowserRouter>
       
