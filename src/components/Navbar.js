@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'; //for routes
 import { FaBars, FaTimes, FaBook } from 'react-icons/fa'; //for the icons
 import { CgShoppingCart } from 'react-icons/cg';
 import { Button } from './Button';
+import logo from '../images/Logo.png'
 
 function Navbar () {
   const [click, setClick] = useState(false); //click function state
@@ -26,8 +27,8 @@ function Navbar () {
           <div className='navbar'>
             <div className='navbar-container container'>
                 <Link to='/' className='navbar-logo'>
-                  <FaBook className='navbar-icon' />
-                    Lizwai
+                  <img src={logo}/>
+                    <h1 className="navbar-text-logo">Lizwai</h1>
                 </Link> 
                 <div className='menu-icon' onClick={handleClick} >
                   {click ? <FaTimes className='fa-times'/> : <FaBars className='fa-bars'/> } 

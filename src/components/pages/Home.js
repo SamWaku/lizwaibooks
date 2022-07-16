@@ -6,13 +6,16 @@ import BooksSec from '../BooksSec'
 import ReadmoreSec from '../ReadmoreSec'
 import Footer from '../Footer'
 
+import {homeObjOne} from './Hompage/HeroData'
+import { homeObjTwo } from './Hompage/FocusData'
+
 export default class home extends Component {
   render() {
     return (
       <div>
         <Navbar/>
-        <Hero/>
-        <Focuscomp/>
+        <Hero {...homeObjOne}/>
+        <Focuscomp {...homeObjTwo}/>
         <BooksSec/>
         <ReadmoreSec/>
         <Footer/>

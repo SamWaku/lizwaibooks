@@ -36,6 +36,17 @@
     align-items: center;
     margin-left: -15vh;
   }
+
+  .navbar-text-logo{
+    color:#4D4D4D;
+    justify-self: start;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-left: 1vh;
+  }
   
   .navbar-icon {
     margin-right: 0.5rem;
@@ -47,7 +58,7 @@
     justify-content: center;
     list-style: none;
     text-align: center;
-    justify-content: end;
+    flex: end;
   }
   
   .nav-item {
@@ -202,7 +213,6 @@
   
     .nav-btn {
       display: flex;
-      justify-content:end;
       align-items: center;
       width: 100%;
       height: 80px;

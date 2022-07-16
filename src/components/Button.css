@@ -30,6 +30,11 @@
     font-size: 20px;
 }
 
+.btn--large {
+    padding: 12px 26px;
+    font-size: 20px;
+}
+
 .btn--mobile {
     text-align: center;
     border-radius: 4px;
@@ -48,7 +53,7 @@
     font-size: 20px;
 }
 
-.btn--large:hover, .btn-medium:hover, .btn--mobile:hover {
+.btn--large:hover, .btn--medium:hover, .btn--mobile:hover {
     transition: all 0.3s ease-out;
     color: transparent;
     background: #FCD458;
